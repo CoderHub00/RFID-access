@@ -1,0 +1,64 @@
+body{
+	margin: 0 auto;
+	background-image: url("../image/library.png"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+.container{   
+	width: auto;
+	/*1225px*/
+	height: 100px;
+	/*text-align: left;*/ 
+	margin: 0 auto;
+	background-color: rgba(44, 62, 80,0.7); 
+	/*margin-top: 10px;*/
+}
+
+.container img{  
+    width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	position: right;
+	margin-top: 4.5px;
+	margin-left: 1040px;
+	
+}
+
+.penel_text{
+	width: 100px;
+	position: right;
+	margin-top: -120px;
+	margin-left: 700px;
+	font-family:georgia,garamond,serif;
+	font-size:18px;
+	font-style:italic;
+}
+
+.panel_greetings{
+	
+}
+
+
+.style1{
+	position: left;
+	margin-left: -35%;
+}
+
+.style2{
+	position: right;
+	margin-right: -35%;
+	margin-top: -255px;
+	
+}
+
+.btn-logout{
+	margin-top: 45px; 
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+	background-color: #2ecc71;
+	color: #fff;  /*font colour*/
+}

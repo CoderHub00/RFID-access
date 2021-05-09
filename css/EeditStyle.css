@@ -1,0 +1,43 @@
+body{
+	margin: 0 auto;
+	background-image: url("../image/Educational.png"); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+.container_edit{   
+	width: 370px;
+	height: 350px;
+	/*400px*/
+	text-align: center; 
+	margin: 0 auto;
+	background-color: rgba(44, 62, 80,0.7); 
+	margin-top: 60px;
+}
+
+input[type="text"],input[type="password"]{
+	margin-top: 60px; 
+	height: 30px; 
+	width: 250px;  
+	font-size: 15px;
+	margin-bottom: 5px; 
+	background-color: #fff;
+	padding-left: 40px;
+}
+
+.back_box{
+	position: right;
+	margin-left: 50px;
+	margin-top: 25px;
+}
+
+.btn-edit{
+	margin-top: 30px; 
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+	background-color: dodgerblue;
+	color: #fff;  /*font colour*/
+}
